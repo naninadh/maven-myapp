@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mycompany.app</groupId>
-  <artifactId>my-app</artifactId>
+  <artifactId>Devops</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>my-app</name>
@@ -28,13 +28,13 @@
   </dependencies>
 <distributionManagement>
     <repository>
-      <id>myapp-releases</id>
-      <name>myapp-releases</name>
+      <id>Devops-Releases</id>
+      <name>Devops-Releases</name>
       <url>http://ec2-35-154-6-176.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Devops-Releases/</url>
     </repository>
     <snapshotRepository>
-      <id>myapp-snapshots</id>
-      <name>myapp-snapshots</name>
+      <id>Devops-Snapshots</id>
+      <name>Devops-Snapshots</name>
       <url>http://ec2-35-154-6-176.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Devops-Snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
