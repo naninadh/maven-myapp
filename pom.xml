@@ -30,12 +30,12 @@
     <repository>
       <id>Devops-Releases</id>
       <name>Devops-Releases</name>
-      <url>http://ec2-35-154-6-176.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Devops-Releases/</url>
+      <url>http://ec2-35-154-138-164.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Devops-Releases/</url>
     </repository>
     <snapshotRepository>
       <id>Devops-Snapshots</id>
       <name>Devops-Snapshots</name>
-      <url>http://ec2-35-154-6-176.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Devops-Snapshots/</url>
+      <url>http://ec2-35-154-138-164.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Devops-Snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
 
